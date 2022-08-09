@@ -1,0 +1,13 @@
+# include<stdio.h>
+void main(){
+    int a,b,c;
+    printf("Enter marks of three subjects: ");
+    scanf("%d %d %d",&a,&b,&c);
+    int t=a+b+c;
+    float avg=t/3;
+    if(avg>=40){
+        printf("Exam Pass");
+    }else{
+        printf("Exam Fail");
+    }
+}
