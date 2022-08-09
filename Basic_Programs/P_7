@@ -1,0 +1,11 @@
+# include<stdio.h>
+void main(){
+    int n;
+    printf("Enter no.of Flower Petals: ");
+    scanf("%d",&n);
+    if(n%2==0){
+        printf("He loves me");
+    }else{
+        printf("He does not loves me");
+    }
+}
