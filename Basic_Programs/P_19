@@ -1,0 +1,8 @@
+# include<stdio.h>
+void main(){
+    int a;
+    printf("Enter side of Equilateral Triangle: ");
+    scanf("%d",&a);
+    float area=(1.732/4)*(a*a);
+    printf("Area of a Equilateral Triangle: %0.2f",area);
+}
