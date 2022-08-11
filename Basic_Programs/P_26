@@ -1,0 +1,9 @@
+# include<stdio.h>
+# include<math.h>
+void main(){
+    int b,l;
+    printf("Enter breadth and Length of the rectangle: ");
+    scanf("%d %d",&b,&l);
+    float d = (float)(sqrt(pow(b,2)+pow(l,2)));
+    printf("Diagonal of the rectangle: %0.2f",d);
+}
