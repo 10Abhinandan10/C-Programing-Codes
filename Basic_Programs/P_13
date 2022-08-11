@@ -1,0 +1,19 @@
+# include<stdio.h>
+void main(){
+    int a,b,c;
+    printf("Enter marks of three subjects: ");
+    scanf("%d %d %d",&a,&b,&c);
+    int t=a+b+c;
+    float avg=(float)t/3;
+    printf("Total marks: %d\n",t);
+    printf("Average marks: %f\n",avg);
+    if(avg>=60){
+        printf("Grade A");
+    }else if(avg>=45 && a<60){
+        printf("Grade B");
+    }else if(avg>=30 && a<45){
+        printf("Grade C");
+    }else if(avg<30){
+        printf("Fail");
+    }
+}
