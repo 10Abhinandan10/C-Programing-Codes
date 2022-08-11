@@ -1,0 +1,12 @@
+# include<stdio.h>
+void main(){
+    float c;
+    printf("Enter temperature in celcius: ");
+    scanf("%f",&c);
+    float f=((9*c)+160)/5;
+    if(f>=98.6){
+        printf("Feaver");
+    }else{
+        printf("Normal");
+    }
+}
