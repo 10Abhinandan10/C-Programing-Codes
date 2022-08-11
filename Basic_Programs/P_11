@@ -1,0 +1,12 @@
+# include<stdio.h>
+void main(){
+    int a,b,c;
+    printf("Enter three angles of a triangle: ");
+    scanf("%d %d %d",&a,&b,&c);
+    int sa=a+b+c;
+    if(sa==180){
+        printf("Triangle is Possible");
+    }else{
+        printf("Triangle is not Possible");
+    }
+}
