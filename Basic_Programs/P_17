@@ -1,0 +1,11 @@
+# include<stdio.h>
+void main(){
+    int n;
+    printf("Enter a character: ");
+    scanf("%d",&n);
+    if(n>=1 && n<=9){
+        printf("Pressed is a Digit");
+    }else{
+        printf("Pressed is not a Digit");
+    }
+}
