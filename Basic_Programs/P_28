@@ -1,0 +1,8 @@
+# include<stdio.h>
+void main(){
+    float c;
+    printf("Enter temperature in celcius: ");
+    scanf("%f",&c);
+    float f=((9*c)+160)/5;
+    printf("Temperature converted in Farenheit: %f",f);
+}
