@@ -1,0 +1,13 @@
+# include<stdio.h>
+void main(){
+    int n;
+    printf("Enter a 3 Digit Number: \n");
+    scanf("%d",&n);
+    int h=n/100;
+    int hd=n%100;
+    int h1=hd/10;
+    int h2=hd%10;
+    printf("%d hundreds\n",h);
+    printf("%d tens\n",h1);
+    printf("%d units\n",h2);
+}
