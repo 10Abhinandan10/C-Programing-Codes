@@ -1,0 +1,17 @@
+# include<stdio.h>
+void main(){
+    int i,j,t;
+    printf("Initial values of i & j\n");
+    printf("i= ");
+    scanf("%d",&i);
+    printf("\n");
+    printf("j= ");
+    scanf("%d",&j);
+    printf("\n");
+    t=i;
+    i=j;
+    j=t;
+    printf("Final values of i & j\n");
+    printf("i= %d\n",i);
+    printf("j= %d\n",j);
+}
