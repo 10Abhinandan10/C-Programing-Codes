@@ -1,0 +1,10 @@
+# include<stdio.h>
+void main(){
+    int lp,pp;
+    printf("Price of Laptop & Printer: ");
+    scanf("%d %d",&lp,&pp);
+    float dis_l= lp*0.15;
+    float dis_p= pp*0.10;
+    printf("Discount on Laptop: %0.2f\n",dis_l);
+    printf("Discount on Printer: %0.2f",dis_p);
+}
