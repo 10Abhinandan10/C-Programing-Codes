@@ -1,0 +1,15 @@
+# include<stdio.h>
+void main(){
+    int cp,sp;
+    printf("Enter Cost price: ");
+    scanf("%d",&cp);
+    printf("Enter Selling price: ");
+    scanf("%d",&sp);
+    if(sp>cp){
+        int profit = sp-cp;
+        printf("Profit: %d",profit);
+    }else{
+        int loss = cp-sp;
+        printf("Loss: %d",loss);
+    }
+}
