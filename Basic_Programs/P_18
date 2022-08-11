@@ -1,0 +1,10 @@
+# include<stdio.h>
+void main(){
+    float n;
+    printf("Enter a decimal number: ");
+    scanf("%f",&n);
+    int i=(int)n;
+    float d=n-i;
+    printf("Integer part: %d\n",i);
+    printf("Decimal part: %0.2f",d);
+}
