@@ -1,0 +1,10 @@
+# include<stdio.h>
+void main(){
+    int l;
+    printf("Enter length in centimeter: ");
+    scanf("%d",&l);
+    float lm=(float)l/100;
+    float lk=(float)l/100000;
+    printf("length convert from centimeter to meter: %0.3f\n",lm);
+    printf("length convert from centimeter to kilometer: %0.3f",lk);
+}
