@@ -1,0 +1,10 @@
+# include<stdio.h>
+void main(){
+    int p,b;
+    printf("Enter perpendicular and Base of the triangle: ");
+    scanf("%d %d",&p,&b);
+    float hy=(float)(sqrt(pow(p,2)+pow(b,2)));
+    float area = (p*b)/2;
+    printf("Hypotenuse of the Triangle: %0.2f\n",hy);
+    printf("Area of the Triangle: %0.2f",area);
+}
