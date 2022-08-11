@@ -1,0 +1,12 @@
+# include<stdio.h>
+void main(){
+    float p,r,t;
+    printf("Enter Principal Rate and Time: ");
+    scanf("%f %f %f",&p,&r,&t);
+    float si=(p*r*t)/100;
+    if(si>100){
+        printf("Simple interest: %0.2f",si);
+    }else{
+        printf("Simple interest is less than 100");
+    }
+}
